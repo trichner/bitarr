@@ -32,11 +32,11 @@ func TestBitarrPanics(t *testing.T) {
 
 	assert.Panics(t, func() {
 		arr.Get(65)
-	}, "Should give an out-of-bounds")
+	}, "Should panic with an out-of-bounds")
 
 	assert.Panics(t, func() {
 		arr.Get(1337)
-	}, "Should give an out-of-bounds")
+	}, "Should panic with an out-of-bounds")
 }
 
 // Test if get, set and clear work as expected
