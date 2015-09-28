@@ -1,3 +1,4 @@
+[![GoDoc](https://godoc.org/github.com/trichner/bitarr?status.svg)](https://godoc.org/github.com/trichner/bitarr)
 # BitArray
 This `Go` package `bitarr` provides a bitarray, can be helpful to efficiently store an array of bools
 
